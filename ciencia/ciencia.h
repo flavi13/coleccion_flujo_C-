@@ -6,7 +6,7 @@
 #ifndef CIENCIA_H
 #define CIENCIA_H
 #include "matematicas/Matematicas.h"
-#include "fisica/fisica.h"
+
 
 namespace ciencia {
     namespace Fisica {

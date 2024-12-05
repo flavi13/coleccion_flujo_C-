@@ -1,7 +1,7 @@
 # coleccion_flujo_C-
 
 [Link del repositorio de github](https://github.com/flavi13/coleccion_flujo_C-)
-(AÚN NO TERMINADO)
+
 
 ## Enunciado
 
