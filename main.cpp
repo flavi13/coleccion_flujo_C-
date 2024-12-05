@@ -1,45 +1,44 @@
 //
 // Created by Flavia Rivero on 29/11/24.
 //
-
 #include <iostream>
-#include "matematicas/matematicas.h"
-#include <string>
-#include "geometria/triangulo.h"
-#include "geometria/circulo.h"
-#include "geometria/cuadrado.h"
+#include "matematicas/Matematicas.h"
+#include "geometria/Geometria.h"
 
 int main() {
-
-//primer ejercicio
-    std::cout << "Suma: " << Matematicas::suma(5, 3) << std::endl;
-    std::cout << "Resta: " << Matematicas::resta(5, 3) << std::endl;
-
-//segundo ejercicio
+//ejercicio 1
     int num;
-    std::string text;
     std::cout << "Ingresa un número: ";
     std::cin >> num;
-    std::cout << "Ingresa un texto: ";
-    std::cin >> text;
-    std::cout << "El número ingresado es: " << num << "\nEl texto ingresado es: " << text << std::endl;
+    std::cout << "El numero ingresado es: " << num << std::endl;
 
-    double areatriangulo = Geometria::calcularAreaTriangulo(5,4);
-    double areacirculo = Geometria::calcularAreaCirculo();
-    double areacuadrado = Geometria::calcularAreaCuadrado();
+    matematicas::Matematicas mat;
+    std::cout << "Suma de 3 y 4: " << mat.sumar(3, 4) << std::endl;
+    std::cout << "Resta de 7 y 2: " << mat.restar(7, 2) << std::endl;
 
-    double perimetroTriangulo = Geometria::calcularPerimetroTriangulo(lado1, lado2, lado3);
-    double perimetroCirculo = Geometria::calcularPerimetroCirculo(radio);
-    double perimetroCuadrado =Geometria::calcularPerimetroCuadrado(lado);
-    double base = 5.0, altura = 3.0, radio = 3.0, lado = 4.0;
+//ejercicio 2
 
-    std::cout << "Área del triángulo: " << Geometria::calcularAreaTriangulo(base, altura) << std::endl;
-    std::cout << "Área del círculo: " << Geometria::calcularAreaCirculo(radio) << std::endl;
-    std::cout << "Área del cuadrado: " << Geometria::calcularAreaCuadrado(lado) << std::endl;
+    double base = 5.0, altura = 10.0, radio = 3.0, lado = 4.0;
+
+    double areaTriangulo = Geometria::calcularAreaTriangulo(base, altura);
+    double areaCirculo = Geometria::calcularAreaCirculo(radio);
+    double areaCuadrado = Geometria::calcularAreaCuadrado(lado);
+
+    std::cout << "Área del triángulo: " << areaTriangulo << std::endl;
+    std::cout << "Área del círculo: " << areaCirculo << std::endl;
+    std::cout << "Área del cuadrado: " << areaCuadrado << std::endl;
+
 
 //ejercicio 3
+    double perimetroTriangulo = Geometria::calcularPerimetroTriangulo(lado1, lado2, lado3);
+    double perimetroCirculo = Geometria::calcularPerimetroCirculo(radio);
+    double perimetroCuadrado = Geometria::calcularPerimetroCuadrado(lado);
+
+    std::cout << "Perimetro del triangulo: " << perimetroTriangulo << std::endl;
+    std::cout << "Perimetro del circulo: " << perimetroCirculo << std::endl;
+    std::cout << "Perimetro del cuadrado: " << perimetroCuadrado << std::endl;
+
+//ejercicio 4
+
     return 0;
 }
-
-
-

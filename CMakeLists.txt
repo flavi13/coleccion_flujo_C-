@@ -12,4 +12,8 @@ add_executable(coleccion_flujo_C-
         geometria/circulo.cpp
         geometria/cuadrado.cpp
         geometria/geometria.h
-        geometria/triangulo.cpp)
+        geometria/triangulo.cpp
+        ciencia/matematicas/matematicas.h
+        ciencia/matematicas/matematicas.cpp
+        ciencia/fisica/fisica.cpp
+        ciencia/ciencia.cpp)
