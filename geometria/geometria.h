@@ -6,7 +6,7 @@
 #define GEOMETRIA_H
 
 
-
+namespace geometria
 class geometria {
 
 };
