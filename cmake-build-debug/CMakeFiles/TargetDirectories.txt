@@ -1,0 +1,3 @@
+/Users/flaviarivero/github/coleccion_flujo_C-/cmake-build-debug/CMakeFiles/coleccion_flujo_C-.dir
+/Users/flaviarivero/github/coleccion_flujo_C-/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/flaviarivero/github/coleccion_flujo_C-/cmake-build-debug/CMakeFiles/rebuild_cache.dir
