@@ -24,11 +24,6 @@ int main() {
     }
 
 //ejercicio 1
-    int num;
-    std::cout << "Ingresa un numero: ";
-    std::cin >> num;
-    std::cout << "El numero ingresado es: " << num << std::endl;
-    outFile << "El numero ingresado es: " << num << std::endl;
 
     matematicas::Matematicas mat;
     std::cout << "Suma de 3 y 4: " << mat.sumar(3, 4) << std::endl;

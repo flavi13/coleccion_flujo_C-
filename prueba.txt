@@ -1,4 +1,3 @@
-El numero ingresado es: 3333
 Suma de 3 y 4: 7
 Resta de 7 y 2: 5
 Area del triangulo: 25
