@@ -5,7 +5,7 @@
 
 #ifndef CIENCIA_H
 #define CIENCIA_H
-#include "matematicas/Matematicas.h"
+#include "matematicas/matematicas.h"
 
 
 namespace ciencia {

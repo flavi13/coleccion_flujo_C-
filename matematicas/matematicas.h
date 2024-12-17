@@ -2,8 +2,6 @@
 // Created by Flavia Rivero on 5/12/24.
 //
 
-// matematicas/Matematicas.h
-
 #ifndef MATEMATICAS_H
 #define MATEMATICAS_H
 

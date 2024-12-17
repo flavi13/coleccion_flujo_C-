@@ -5,11 +5,11 @@
 #include <iostream>
 #include <fstream>
 #include "matematicas/Matematicas.h"
-#include "geometria/Geometria.h"
+#include "geometria/geometria.h"
 
 int main() {
     std::ifstream file;
-    file.open("C:/Users/carlo/Desktop/uni/programacion/Flujos_C-/example.txt");
+    file.open("/Users/flaviarivero/github/coleccion_flujo_C-/prueba.txt");
     if (!file) {
         std::cerr << "No se pudo abrir el archivo.\n";
     } else {
@@ -17,7 +17,7 @@ int main() {
     }
     file.close();
 
-    std::ofstream outFile("C:/Users/carlo/Desktop/uni/programacion/Flujos_C-/example.txt");
+    std::ofstream outFile("/Users/flaviarivero/github/coleccion_flujo_C-/prueba.txt");
     if (!outFile) {
         std::cerr << "No se pudo abrir el archivo de salida.\n";
         return 1;
@@ -51,18 +51,16 @@ int main() {
     std::cout << "Area del cuadrado: " << areaCuadrado << std::endl;
     outFile << "Area del cuadrado: " << areaCuadrado << std::endl;
 
-//ejercicio 3
+    //ejercicio 3
     double perimetroTriangulo = Geometria::calcularPerimetroTriangulo(lado1, lado2, lado3);
     double perimetroCirculo = Geometria::calcularPerimetroCirculo(radio);
     double perimetroCuadrado = Geometria::calcularPerimetroCuadrado(lado);
 
-    std::cout << "Perimetro del triangulo: " << perimetroTriangulo << std::endl;
-    outFile << "Perimetro del triangulo: " << perimetroTriangulo << std::endl;
-    std::cout << "Perimetro del circulo: " << perimetroCirculo << std::endl;
-    outFile << "Perimetro del circulo: " << perimetroCirculo << std::endl;
-    std::cout << "Perimetro del cuadrado: " << perimetroCuadrado << std::endl;
-    outFile << "Perimetro del cuadrado: " << perimetroCuadrado << std::endl;
+    std::cout << "Perímetro del triangulo: " << perimetroTriangulo << std::endl;
+    outFile << "Perímetro del triangulo: " << perimetroTriangulo << std::endl;
+    std::cout << "Perímetro del circulo: " << perimetroCirculo << std::endl;
+    outFile << "Perímetro del circulo: " << perimetroCirculo << std::endl;
+    std::cout << "Perímetro del cuadrado: " << perimetroCuadrado << std::endl;
+    outFile << "Perímetro del cuadrado: " << perimetroCuadrado << std::endl;
 
-    outFile.close();
-    return 0;
 }

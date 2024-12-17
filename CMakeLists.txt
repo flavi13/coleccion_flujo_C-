@@ -17,4 +17,5 @@ add_executable(coleccion_flujo_C-
         ciencia/matematicas/matematicas.cpp
         ciencia/fisica/fisica.cpp
         ciencia/ciencia.cpp
-        main.h)
+        main.h
+)

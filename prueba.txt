@@ -1,0 +1,9 @@
+El numero ingresado es: 3333
+Suma de 3 y 4: 7
+Resta de 7 y 2: 5
+Area del triangulo: 25
+Area del circulo: 28.2743
+Area del cuadrado: 16
+Perímetro del triangulo: 12
+Perímetro del circulo: 1.90986
+Perímetro del cuadrado: 16
